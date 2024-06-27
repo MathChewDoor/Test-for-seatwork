@@ -54,25 +54,38 @@ footer {
 }
 
 /* Page-specific styles for movie recommendations */
+.movie-recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .movie {
-    margin-bottom: 20px;
+    max-width: 250px;
     text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .movie img {
-    width: 200px; /* Adjust size as necessary */
+    width: 100%;
     height: auto;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    display: block;
 }
 
 .movie h2 {
-    margin-bottom: 5px;
+    margin: 10px 0;
     font-size: 18px;
+    color: #333;
 }
 
 .movie p {
     margin: 0;
+    padding: 10px;
     font-size: 14px;
     color: #666;
+    background-color: #f9f9f9;
 }
