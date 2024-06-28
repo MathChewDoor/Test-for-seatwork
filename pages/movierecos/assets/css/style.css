@@ -5,12 +5,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Light gray background */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #222; /* Dark gray header background */
+    color: #fff; /* White text color */
     padding: 10px 0;
     text-align: center;
 }
@@ -42,7 +42,7 @@ nav ul li a:hover {
 section.movie-recommendations {
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #fff; /* White background for movie section */
     border: 1px solid #ccc;
     display: flex;
     flex-wrap: wrap;
@@ -75,20 +75,20 @@ section.movie-recommendations {
 .movie h2 {
     margin: 10px 0;
     font-size: 18px;
-    color: #333;
+    color: #333; /* Dark gray text color */
 }
 
 .movie p {
     margin: 0;
     padding: 10px;
     font-size: 14px;
-    color: #666;
-    background-color: #f9f9f9;
+    color: #666; /* Gray text color */
+    background-color: #f9f9f9; /* Light gray background for movie description */
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: #222; /* Dark gray footer background */
+    color: #fff; /* White text color */
 }
