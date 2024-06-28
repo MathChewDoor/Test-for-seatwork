@@ -1,10 +1,11 @@
-/* Global styles */
+/* Global styles (shared across pages) */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #f0f0f0;
 }
 
 header {
@@ -26,80 +27,52 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    text-decoration: underline;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-/* Movie Recommendations section */
-section.movie-recommendations {
+section {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
-    display: flex;
-    gap: 20px;
-    justify-content: space-around; /* Center items horizontally */
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
-.movie {
-    width: 250px;
+footer {
     text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
 }
 
-.movie:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+/* Page-specific styles for movie recommendations */
+.movie {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .movie img {
-    width: 100%;
+    width: 200px; /* Adjust size as necessary */
     height: auto;
-    display: block;
-    border-bottom: 1px solid #ddd;
-    border-radius: 8px 8px 0 0; /* Rounded corners only on top */
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .movie h2 {
-    margin: 10px 0;
+    margin-bottom: 5px;
     font-size: 18px;
-    color: #333;
 }
 
 .movie p {
     margin: 0;
-    padding: 10px;
     font-size: 14px;
     color: #666;
-    background-color: #f9f9f9;
-}
-
-@media (max-width: 768px) {
-    section.movie-recommendations {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center items vertically */
-    }
 }
