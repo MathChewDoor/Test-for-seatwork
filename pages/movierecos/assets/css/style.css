@@ -39,41 +39,37 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-section {
+section.movie-recommendations {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-}
-
-/* Page-specific styles for movie recommendations */
-.movie-recommendations {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
 }
 
 .movie {
-    max-width: 250px;
+    width: 300px;
+    margin-bottom: 20px;
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.movie:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .movie img {
     width: 100%;
     height: auto;
     display: block;
+    border-bottom: 1px solid #ddd;
 }
 
 .movie h2 {
@@ -88,4 +84,11 @@ footer {
     font-size: 14px;
     color: #666;
     background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
 }
