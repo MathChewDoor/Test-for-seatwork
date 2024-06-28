@@ -12,7 +12,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  A simple feature deasign layout.
+  A simple feature design layout.
 </div>
 
 <br />
