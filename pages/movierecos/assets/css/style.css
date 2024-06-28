@@ -50,7 +50,7 @@ section.movie-recommendations {
 }
 
 .movie {
-    width: 300px;
+    width: 250px; /* Reduced width for the movie items */
     margin-bottom: 20px;
     text-align: center;
     border: 1px solid #ddd;
@@ -66,8 +66,8 @@ section.movie-recommendations {
 }
 
 .movie img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Ensures images fill their containers */
+    height: auto; /* Maintains aspect ratio */
     display: block;
     border-bottom: 1px solid #ddd;
 }
