@@ -1,11 +1,10 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and general layout */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -77,6 +76,11 @@ nav ul li a:hover {
     font-size: 1.2rem;
     margin-top: 10px;
     color: #333;
+    transition: color 0.3s ease; 
+}
+
+.movie h2:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 .movie p {
@@ -89,4 +93,18 @@ footer {
     text-align: center;
     color: #666;
     font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #333; 
+    text-decoration: underline;
+    transition: color 0.3s ease; 
+}
+
+footer a:hover {
+    color: #555; 
 }
