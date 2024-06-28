@@ -1,108 +1,113 @@
+/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-/* Body styles */
+/* Style the body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f4f4f4;
+    color: #333;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
+    background: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 1rem 0;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-header .logo {
+.logo {
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-header nav ul {
-    list-style-type: none;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
     transition: color 0.3s ease;
 }
 
-header nav ul li a:hover {
-    color: #ffd700; /* change to gold on hover */
+nav ul li a:hover {
+    color: #ff6b6b;
 }
 
-/* Section styles */
+/* Main section styles */
 .shop-info {
-    padding: 20px;
+    flex: 1;
+    padding: 2rem;
     text-align: center;
 }
 
+.shop-info h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.shop-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
 .shop {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .shop img {
     max-width: 100px;
-    border-radius: 50%;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
-
-.shop img:hover {
-    transform: scale(1.1); /* increase size on hover */
+    margin-bottom: 1rem;
 }
 
 .shop h2 {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    color: #333;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .shop p {
-    color: #666;
-    font-size: 0.9rem;
+    color: #777;
+    font-size: 0.95rem;
+}
+
+/* Hover effect for shop cards */
+.shop:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    font-size: 0.9rem;
-}
-
-
-@media (max-width: 768px) {
-    header {
-        padding: 10px 0;
-    }
-    
-    .shop {
-        padding: 15px;
-    }
-    
-    .shop img {
-        max-width: 80px;
-    }
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
