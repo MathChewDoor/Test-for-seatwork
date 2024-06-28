@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/MathChewDoor/">
+ 
+    <img src="./assets/img/thumbs_up.png" alt="Nice" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Title</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A simple feature deasign layout.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
+
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=MathChewDoor/WD-Seatwork-4)
 
 ---
 
@@ -57,26 +57,24 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+
+This project showcases distinct design layouts for features, demonstrating basic and simple layouts using pure HTML and CSS. The purpose is to illustrate the simplicity of web design through curated content, including movie recommendations and top online shops.  HTML structures the content, while CSS is used to add styling and effects, enhancing the visual appeal and user experience.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Landing Page(Home)
+- Movie Recommendations Page/ Top Online Shops Page
+- Simple Features for the Pages
+- HTML Code
+- CSS Code
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -117,4 +115,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Complete Layout Guide | Used a a guide for the page layouts | https://www.youtube.com/watch?v=MlsV3hu84as |
