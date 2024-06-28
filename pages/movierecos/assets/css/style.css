@@ -1,17 +1,67 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Movie Recommendations section */
 section.movie-recommendations {
     margin: 20px;
     padding: 20px;
-    background-color: #fff; 
+    background-color: #fff;
     border: 1px solid #ccc;
     display: flex;
-    overflow-x: auto;
-    gap: 20px; 
-    justify-content: flex-start; 
+    gap: 20px;
+    justify-content: space-around; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .movie {
-    width: 250px; 
+    width: 250px;
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -26,29 +76,30 @@ section.movie-recommendations {
 }
 
 .movie img {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
     display: block;
     border-bottom: 1px solid #ddd;
+    border-radius: 8px 8px 0 0; /* Rounded corners only on top */
 }
 
 .movie h2 {
     margin: 10px 0;
     font-size: 18px;
-    color: #333; 
+    color: #333;
 }
 
 .movie p {
     margin: 0;
     padding: 10px;
     font-size: 14px;
-    color: #666; 
-    background-color: #f9f9f9; 
+    color: #666;
+    background-color: #f9f9f9;
 }
 
 @media (max-width: 768px) {
     section.movie-recommendations {
-        flex-wrap: nowrap; 
-        overflow-x: auto; 
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items vertically */
     }
 }
