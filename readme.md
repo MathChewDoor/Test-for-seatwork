@@ -63,11 +63,10 @@ This project showcases distinct design layouts for features, demonstrating basic
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- Landing Page(Home)
-- Movie Recommendations Page/ Top Online Shops Page
-- Simple Features for the Pages
-- HTML Code
-- CSS Code
+- Landing Page
+- Hero Sections
+- Feature Pages
+- Basic/Simple HTML & CSS Styling
 
 ### Technology
 <!-- TODO: List of Technology Used -->
