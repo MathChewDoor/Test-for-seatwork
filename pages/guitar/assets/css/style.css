@@ -1,11 +1,10 @@
-
+/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
 
 body {
     background-color: #f4f4f4;
@@ -14,11 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('../../assets/img/guitar_bg.png');
-    background-size: cover;
-    background-position: center;
 }
-
 
 header {
     background: #333;
@@ -53,9 +48,8 @@ nav ul li a:hover {
     color: #ff6b6b;
 }
 
-
 .hero {
-    background: rgba(0, 0, 0, 0.5); 
+    background: url('../../assets/img/guitar_bg.png') no-repeat center center/cover;
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -75,9 +69,8 @@ nav ul li a:hover {
     margin: 0;
 }
 
-
 .guitar-info {
-    flex: 1;
+    background-color: #fff;
     padding: 2rem;
     text-align: center;
 }
@@ -123,12 +116,10 @@ nav ul li a:hover {
     font-size: 0.95rem;
 }
 
-
 .feature:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 
 footer {
     background: #333;
