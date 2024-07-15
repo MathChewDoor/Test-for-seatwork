@@ -101,7 +101,8 @@ nav ul li a:hover {
 }
 
 .feature img {
-    max-width: 100px;
+    max-width: 150px; /* Increased size */
+    max-height: 150px; /* Maintain aspect ratio */
     margin-bottom: 1rem;
 }
 
