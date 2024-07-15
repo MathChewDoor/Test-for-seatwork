@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -101,8 +101,8 @@ nav ul li a:hover {
 }
 
 .feature img {
-    max-width: 150px; /* Increased size */
-    max-height: 150px; /* Maintain aspect ratio */
+    max-width: 150px; 
+    max-height: 150px; 
     margin-bottom: 1rem;
 }
 
