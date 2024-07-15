@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* Style the body */
+
 body {
     background-color: #f4f4f4;
     color: #333;
@@ -14,9 +14,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url('../../assets/img/guitar_bg.png');
+    background-size: cover;
+    background-position: center;
 }
 
-/* Header styles */
+
 header {
     background: #333;
     color: #fff;
@@ -50,9 +53,9 @@ nav ul li a:hover {
     color: #ff6b6b;
 }
 
-/* Hero section styles */
+
 .hero {
-    background: url('../../assets/img/hero_bg_online_shops.jpg') no-repeat center center/cover;
+    background: rgba(0, 0, 0, 0.5); 
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -60,16 +63,6 @@ nav ul li a:hover {
     color: #fff;
     text-align: center;
     position: relative;
-}
-
-.hero::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
@@ -82,27 +75,27 @@ nav ul li a:hover {
     margin: 0;
 }
 
-/* Main section styles */
-.shop-info {
+
+.guitar-info {
     flex: 1;
     padding: 2rem;
     text-align: center;
 }
 
-.shop-info h2 {
+.guitar-info h2 {
     margin-bottom: 2rem;
     font-size: 2.5rem;
     color: #333;
 }
 
-.shop-grid {
+.feature-grid {
     display: flex;
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
 
-.shop {
+.feature {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -114,29 +107,29 @@ nav ul li a:hover {
     margin: 1rem auto;
 }
 
-.shop img {
+.feature img {
     max-width: 100px;
     margin-bottom: 1rem;
 }
 
-.shop h3 {
+.feature h3 {
     font-size: 1.25rem;
     margin-bottom: 1rem;
     color: #333;
 }
 
-.shop p {
+.feature p {
     color: #777;
     font-size: 0.95rem;
 }
 
-/* Hover effect for shop cards */
-.shop:hover {
+
+.feature:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer styles */
+
 footer {
     background: #333;
     color: #fff;
